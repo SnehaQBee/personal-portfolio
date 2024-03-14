@@ -1,6 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
+import projImg2 from "../assets/img/hero.png";
 //import projImg2 from "../assets/img/project-img2.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -11,9 +12,15 @@ export const Projects = () => {
   const projects = [
     {
       title: "E-Commerce Website",
-      description: "Design & Development",
+      description: "Developmed Using React Js",
       imgUrl: projImg1,
       url: "https://snehaqbee.github.io/shopping-portal/",
+    },
+    {
+      title: "My BookShelf",
+      description: "Designed to explore books using the Google API", 
+      imgUrl: projImg2,
+      url: "https://snehaqbee.github.io/myBookShelf/"
     }
   ];
 
